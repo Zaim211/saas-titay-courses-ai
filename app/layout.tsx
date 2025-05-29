@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-
 import {
   ClerkProvider,
 } from "@clerk/nextjs";
@@ -13,8 +12,8 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Converso",
-  description: "Real-time AI Teaching Platform",
+  title: "Titay-course-AI",
+  description: "an AI companion for your learning journey, powered by Titay",
 };
 
 export default function RootLayout({
